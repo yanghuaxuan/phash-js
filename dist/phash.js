@@ -4377,7 +4377,7 @@ function GetCurrentUrlDifferentFilename(currentUrl, fileName) {
   return ChangeUrl(currentUrl, fileName);
 }
 
-var currentJavascriptURL = './magickApi.js'; // // instead of doing the sane code of being able to just use import.meta.url
+var currentJavascriptURL = 'https://cdn.jsdelivr.net/gh/yanghuaxuan/phash-js@master/dist/magick.js'; // // instead of doing the sane code of being able to just use import.meta.url
 // // (Edge doesn't work) (safari mobile, chrome, opera, firefox all do)
 // //
 // // I will use stacktrace-js library to get the current file name
