@@ -4437,7 +4437,7 @@ function GetCurrentFileURL() {
   return GetCurrentFileURLHelper1();
 }
 
-currentJavascriptURL = GetCurrentFileURL();
+// currentJavascriptURL = GetCurrentFileURL();
 var magickWorkerUrl = GetCurrentUrlDifferentFilename(currentJavascriptURL, 'magick.js');
 
 function GenerateMagickWorkerText(magickUrl) {
